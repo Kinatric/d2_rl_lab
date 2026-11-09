@@ -1,0 +1,6 @@
+D2 source assets and adapted asset builder / kinematic utilities originate from
+https://gitee.com/lookc4/go2_rl_robotlab
+commit 079b31694e11dead1ac9ff0ea0a60737eb8203c2 (main), Apache License 2.0.
+UPSTREAM.json records original downloaded source bytes, before adaptation.
+The runtime builder and d2_contract.py were adapted for Isaac Lab 3.0; generated
+assets and validation receipts are rebuilt locally. No old policies are included.

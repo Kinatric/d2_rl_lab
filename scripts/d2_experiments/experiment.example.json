@@ -1,0 +1,12 @@
+{
+  "task": "d2-mixed-moe-cts",
+  "target_iterations": 180000,
+  "num_envs": 8192,
+  "seed": 42,
+  "physics": "newton_mjwarp",
+  "zero_command_end": 0.1,
+  "zero_yaw_probability": 0,
+  "teacher_envs": 6144,
+  "student_envs": 2048,
+  "save_interval": 500
+}

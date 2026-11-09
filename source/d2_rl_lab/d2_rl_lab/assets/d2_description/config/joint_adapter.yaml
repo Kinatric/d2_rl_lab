@@ -1,0 +1,134 @@
+# D2 joint-adapter contract.
+#
+# The simulation contract is the only mapping identity bound to training,
+# checkpoints, and current MuJoCo deployment. Hardware commissioning is a
+# separate contract so later CAN/zero/sign calibration cannot invalidate a
+# policy whose model-to-simulation semantics did not change.
+schema_version: 2
+
+simulation:
+  schema_version: 1
+  mapping_version: d2_simulation_joint_adapter_v1
+  model_order:
+    - FL_hip_joint
+    - FL_thigh_joint
+    - FL_calf_joint
+    - FR_hip_joint
+    - FR_thigh_joint
+    - FR_calf_joint
+    - RL_hip_joint
+    - RL_thigh_joint
+    - RL_calf_joint
+    - RR_hip_joint
+    - RR_thigh_joint
+    - RR_calf_joint
+  mujoco_status: commissioned
+  mujoco_order:
+    - FL_hip_joint
+    - FL_thigh_joint
+    - FL_calf_joint
+    - FR_hip_joint
+    - FR_thigh_joint
+    - FR_calf_joint
+    - RL_hip_joint
+    - RL_thigh_joint
+    - RL_calf_joint
+    - RR_hip_joint
+    - RR_thigh_joint
+    - RR_calf_joint
+  zero_offset_rad: [0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
+  direction_sign: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+
+# Hardware schema v2 reserves a stable physical identity for every joint.
+# All values stay null until bench commissioning. A hardware loader rejects
+# this state and must never replace nulls with guessed identity transforms.
+hardware:
+  schema_version: 2
+  mapping_version: d2_hardware_joint_adapter_v2
+  status: uncommissioned
+  protocol: null
+  joints:
+    FL_hip_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    FL_thigh_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    FL_calf_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    FR_hip_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    FR_thigh_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    FR_calf_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    RL_hip_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    RL_thigh_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    RL_calf_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    RR_hip_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    RR_thigh_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
+    RR_calf_joint:
+      bus: null
+      can_id: null
+      mcu_uuid: null
+      firmware: null
+      zero_offset_rad: null
+      direction_sign: null
