@@ -18,12 +18,13 @@ D2 uses 12 joints, a 45-value frame with 10-frame history, 200 Hz physics and 50
 
 ## Install and generate assets
 
+Current source assets are stored directly in Git. Cloning or downloading the latest ZIP does not require Git LFS. Older commits or tags may still require Git LFS; download a fresh archive to replace an older archive containing pointer files.
+
 Use Python 3.12 with the configured Isaac Lab 3.0 / Isaac Sim 6.2 runtime (PyTorch 2.11 CUDA 12.8, Newton 1.6.1, Warp 1.17). See the [upstream runtime installation](https://isaac-sim.github.io/IsaacLab/v3.0.0/source/isaaclab/installation.html). Use a separate environment when migrating; do not change active jobs' editable paths.
 
 ```bash
 git clone http://192.168.0.100:3002/lixiang/D2_rl_lab
 cd D2_rl_lab
-git lfs pull
 # Activate your independent Isaac Lab environment first.
 ./d2_rl_lab.sh --install
 ./d2_rl_lab.sh --list

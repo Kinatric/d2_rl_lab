@@ -10,6 +10,8 @@ D2_rl_lab contains `robot_rl_core`, `d2_rl_lab` and one vendored `rsl_rl`. Go2 r
 - Reusable source workflows belong in `scripts/d2_experiments/` and `scripts/d2_asset_checks/`; never copy credentials, results or experiment-specific paths into them.
 - Before an authorized commit/push, verify `git ls-files tests` is empty, scan release content, and preserve original asset licenses/hashes. There is no bundled policy exception anymore.
 
+Current original assets are stored as ordinary Git blobs, not Git LFS pointers. Preserve their bytes and hashes when publishing. Historical LFS objects remain available for old revisions; do not rewrite history or remove those objects. This does not permit publishing models, tests or generated runtime assets.
+
 ## Architecture
 
 | Path | Responsibility |
