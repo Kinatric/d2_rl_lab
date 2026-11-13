@@ -1,0 +1,140 @@
+{
+  "commit": "079b31694e11dead1ac9ff0ea0a60737eb8203c2",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "6c902f2125ac13341ec3bd7a8e2a06550926b58a056a7a223172e6501370b70b",
+      "bytes": 11343
+    },
+    {
+      "path": "docs/d2_runtime.md",
+      "sha256": "f66f026aa445eec147511c39bb48de23be06e4379f2aa3835301502fb4bb4df8",
+      "bytes": 2203
+    },
+    {
+      "path": "resources/d2_description/CMakeLists.txt",
+      "sha256": "140bd233b7167d894b9a6783399a0132019ab7c5fae9f1c9af55b1fde4c7458d",
+      "bytes": 196
+    },
+    {
+      "path": "resources/d2_description/config/joint_adapter.yaml",
+      "sha256": "2f2b01410d743d1cd867f4238f68bc9cc8f5fae6fae6971e5e56d3324219e99e",
+      "bytes": 3261
+    },
+    {
+      "path": "resources/d2_description/config/robstride06_motor.yaml",
+      "sha256": "1b53b058c6b65dde4ef6e055c4bc73847a9bcb66a9879404e5a746634ab93e52",
+      "bytes": 7682
+    },
+    {
+      "path": "resources/d2_description/launch/check_joint.rviz",
+      "sha256": "255de53fa00603b9f11a78d8e533420b2d1627fc4b8aaca2e0eba18da1338d62",
+      "bytes": 978
+    },
+    {
+      "path": "resources/d2_description/launch/d2_rviz.launch.py",
+      "sha256": "0c98ad14ff4719d25c5db2cd9bc8df8de5fed59f98f11332282e5fd3ebb5dfc2",
+      "bytes": 2703
+    },
+    {
+      "path": "resources/d2_description/meshes/FL_calf.stl",
+      "sha256": "f4d1f9c265f16a740ece99a13650ac6f8d091d3cf057c99abe3ce619e22de971",
+      "bytes": 284384
+    },
+    {
+      "path": "resources/d2_description/meshes/FL_hip.stl",
+      "sha256": "90d5ee0df4d323787682d021f639caf1e7a5258a00c8b6a92320087df514335c",
+      "bytes": 708784
+    },
+    {
+      "path": "resources/d2_description/meshes/FL_thigh.stl",
+      "sha256": "facd9c24940938224c1f2c8cb947993c3f23644fdb95ad943e5f10d092e8300b",
+      "bytes": 1727284
+    },
+    {
+      "path": "resources/d2_description/meshes/FR_calf.stl",
+      "sha256": "1c3da6ccf691f11d66cbec3ad06a79963c215afda2b56ac1c7085491498e3c71",
+      "bytes": 284184
+    },
+    {
+      "path": "resources/d2_description/meshes/FR_hip.stl",
+      "sha256": "e6a1913c9c6720e975fbf340a1e7be30188f1bd99f927b0443b4d382a203186e",
+      "bytes": 708784
+    },
+    {
+      "path": "resources/d2_description/meshes/FR_thigh.stl",
+      "sha256": "2864760fe33ca2d665df3ee7588f4d1679e6f50fd72ffddfee38cf8d2bc21d70",
+      "bytes": 1749384
+    },
+    {
+      "path": "resources/d2_description/meshes/RL_calf.stl",
+      "sha256": "49b8be9f62c468768f248f3cad2263467ca365d1793bd3bd369669312fe4e4c6",
+      "bytes": 284384
+    },
+    {
+      "path": "resources/d2_description/meshes/RL_hip.stl",
+      "sha256": "69087eaec04b42bc90a75e01a1c5d8af55e8ff47b149392ae1b465d685f091bf",
+      "bytes": 708784
+    },
+    {
+      "path": "resources/d2_description/meshes/RL_thigh.stl",
+      "sha256": "1c28eb79541afccca6fcb439850232580049bab28d69c19ad29cb93f9754546a",
+      "bytes": 1745884
+    },
+    {
+      "path": "resources/d2_description/meshes/RR_calf.stl",
+      "sha256": "06e7cd18ad9cd20084c14dd1f8daab3de881ae5ee7099090ad26f06ff0024294",
+      "bytes": 284184
+    },
+    {
+      "path": "resources/d2_description/meshes/RR_hip.stl",
+      "sha256": "3f7b771f24f13986fb83f3b649baa0903eeac50fd05bb4ffc927db81af77be2a",
+      "bytes": 708784
+    },
+    {
+      "path": "resources/d2_description/meshes/RR_thigh.stl",
+      "sha256": "5acaf973c7d5e50a0ffeaf874bf4c214b0eccf0a956070aa61ee01f7b08534cd",
+      "bytes": 1735184
+    },
+    {
+      "path": "resources/d2_description/meshes/base.stl",
+      "sha256": "faceccd31f8ece740bc105523174a82bf7b699c6becaa9cddb90ea42b7aaade2",
+      "bytes": 3421884
+    },
+    {
+      "path": "resources/d2_description/package.xml",
+      "sha256": "78dd1f10af793e0e3781bd2c1c6ba6fb98b924e8b380613a4622b1844f39be67",
+      "bytes": 880
+    },
+    {
+      "path": "resources/d2_description/urdf/d2_description.urdf",
+      "sha256": "a0aa209990c591528996f557282d4976f15e82117b514829f1065b74874c9d68",
+      "bytes": 18573
+    },
+    {
+      "path": "scripts/tools/build_d2_runtime.py",
+      "sha256": "0f8d3079cb56c8b56d81f0b4f3d45e32fdc19c266384a49d6064f5cc045b6913",
+      "bytes": 16288
+    },
+    {
+      "path": "scripts/tools/validate_d2_runtime.py",
+      "sha256": "7c9a6b5549d5223b9e5fdf910c1f29c90a04d7e765d157a1192a8904eeca2bc4",
+      "bytes": 26941
+    },
+    {
+      "path": "source/robot_lab/robot_lab/assets/d2_metadata.py",
+      "sha256": "f04d2f4fa3a3ecef7855c2e8eeca7931d66e3fcadb59f1a2791b1fd756eb1ae7",
+      "bytes": 11521
+    },
+    {
+      "path": "source/robot_lab/robot_lab/assets/robstride_actuator.py",
+      "sha256": "2a4ad32a34df4275df78dd09942df11f56f6eba7395eb8364f3a3ea2ea674e20",
+      "bytes": 16918
+    },
+    {
+      "path": "source/robot_lab/robot_lab/assets/robstride_motor.py",
+      "sha256": "cd74fae2cfc05981f6fce900c75fc479fb77a10aced41fb76750627386d951d0",
+      "bytes": 25524
+    }
+  ]
+}

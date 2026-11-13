@@ -1,0 +1,5 @@
+{
+  "source_root": "resources/d2_description",
+  "local_root": "source/d2_rl_lab/d2_rl_lab/assets/d2_description",
+  "note": "UPSTREAM.json retains original import paths and content hashes; relative member names are unchanged."
+}
