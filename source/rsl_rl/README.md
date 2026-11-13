@@ -38,3 +38,7 @@ TorchScript policies accept one observation frame and maintain the feature-major
 ## Attribution
 
 Based on [leggedrobotics/rsl_rl](https://github.com/leggedrobotics/rsl_rl). See [LICENSE](LICENSE), [CONTRIBUTORS.md](CONTRIBUTORS.md), [CITATION.cff](CITATION.cff), and [licenses/](licenses/) for attribution, citation, and dependency notices.
+
+## Kinatric modifications
+
+Kinatric-owned modifications are GPL-3.0-or-later; upstream RSL-RL and Tianyang Wu contributions retain their original notices in LICENSE and licenses/. See [package coverage](LICENSING.md), [GPL text](COPYING), and [third-party notices](THIRD_PARTY_NOTICES.md).

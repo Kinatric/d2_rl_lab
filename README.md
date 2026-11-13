@@ -71,6 +71,10 @@ Other existing CLI options remain: `--generate-vscode-settings`, `--train-distri
 
 ## Sources and validation
 
-See [D2 source/license/hash records](docs/licenses/go2_rl_robotlab/NOTICE.txt), [experiment evaluation](docs/d2_experiments.md), and [migration](docs/core_migration.md). Original assets retain their notices; repository code retains the upstream [MIT license](LICENSE), with vendored components' own notices. Historical Go2 strings in provenance and model identity are deliberate, not live dependencies. RoboGauge has no default robot task; enabling it requires an explicitly supported evaluator task.
+See [D2 source/license/hash records](docs/licenses/go2_rl_robotlab/NOTICE.txt), [experiment evaluation](docs/d2_experiments.md), and [migration](docs/core_migration.md). Original assets retain their notices; Kinatric-owned code and modifications use GPL-3.0-or-later, with upstream and vendored components retaining their own notices; see [LICENSING.md](LICENSING.md). Historical Go2 strings in provenance and model identity are deliberate, not live dependencies. RoboGauge has no default robot task; enabling it requires an explicitly supported evaluator task.
 
 Local validation material stays in ignored `tests/upgrade_isaaclab_3_ea/`; logs, models, videos, environments and generated assets are not release content. Short regression checks establish interface compatibility, not stable walking or hardware readiness.
+
+## License
+
+Kinatric-owned software and firmware contributions are licensed under **GPL-3.0-or-later**. Kinatric-owned robot hardware designs and associated manufacturing documentation are licensed under **CERN-OHL-W-2.0**, subject to the file coverage in [LICENSING.md](LICENSING.md). Third-party material retains its original licenses and attribution; see [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md). Both full license texts are included in [LICENSES/](LICENSES/). Kinatric-owned trained policy weights are also GPL-3.0-or-later; see the coverage table and provenance requirements.

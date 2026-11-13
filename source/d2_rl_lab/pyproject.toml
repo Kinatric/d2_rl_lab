@@ -3,6 +3,7 @@ requires = ["setuptools>=68"]
 build-backend = "setuptools.build_meta"
 
 [project]
+license = { text = "GPL-3.0-or-later AND MIT AND Apache-2.0 AND BSD-3-Clause AND CERN-OHL-W-2.0" }
 name = "d2_rl_lab"
 version = "0.1.0"
 description = "D2 assets, RS06 actuators and tasks using robot_rl_core and vendored RSL-RL."
@@ -19,3 +20,6 @@ d2_rl_lab = ["assets/d2_description/**/*", "assets/d2_description/*"]
 
 [tool.setuptools.exclude-package-data]
 "*" = ["**/__pycache__/*", "**/*.pyc"]
+
+[tool.setuptools]
+license-files = ["COPYING", "LICENSE*", "LICENSES/*.txt", "LICENSING.md", "THIRD_PARTY_NOTICES.md"]
