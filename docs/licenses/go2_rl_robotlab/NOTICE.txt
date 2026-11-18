@@ -4,3 +4,5 @@ commit 079b31694e11dead1ac9ff0ea0a60737eb8203c2 (main), Apache License 2.0.
 UPSTREAM.json records original downloaded source bytes, before adaptation.
 The runtime builder and d2_contract.py were adapted for Isaac Lab 3.0; generated
 assets and validation receipts are rebuilt locally. No old policies are included.
+
+Ownership clarification (2026-11-17): Kinatric confirms that lookc4/go2_rl_robotlab was its earlier repository and that it owns the D2/D2W robot designs and models. The provenance and earlier Apache-2.0 grant above are retained as historical records. Current Kinatric-owned published hardware designs are CERN-OHL-W-2.0 and software contributions are GPL-3.0-or-later. Training derives from wty-yy/go2_rl_lab; its original notices remain applicable.
