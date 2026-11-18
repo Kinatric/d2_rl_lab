@@ -9,7 +9,7 @@ The full, unmodified texts are in [LICENSES/GPL-3.0-or-later.txt](LICENSES/GPL-3
 | Material | Applicable terms |
 | --- | --- |
 | `source/d2_rl_lab/`, `source/robot_rl_core/`, `scripts/`, `deploy/`, build/configuration files and software documentation | GPL-3.0-or-later for Kinatric-owned software and modifications; upstream portions retain their notices. |
-| `source/d2_rl_lab/d2_rl_lab/assets/d2_description/` | Imported D2 source assets retain Apache-2.0 per `docs/licenses/go2_rl_robotlab/`; CERN-OHL-W-2.0 applies only to separately identifiable Kinatric-owned hardware contributions. |
+| `source/d2_rl_lab/d2_rl_lab/assets/d2_description/` | CERN-OHL-W-2.0 for Kinatric-owned D2 designs and models; GPL-3.0-or-later for Kinatric-owned executable code. Earlier Kinatric repository provenance and historical grants are preserved in `docs/licenses/go2_rl_robotlab/`; genuine upstream portions retain their terms. |
 | `source/rsl_rl/`, `docs/licenses/` | Original upstream components/notices retain their terms. Kinatric-owned modifications, if any, are GPL-3.0-or-later; see package LICENSING.md. |
 | Checkpoints, exported policies, replay datasets and generated runtime assets | Not distributed in the current source tree. Kinatric-owned weights/checkpoints are GPL-3.0-or-later when released; include artifact notices, provenance and corresponding source. Datasets and third-party/generated assets require their own applicable terms. |
 
@@ -28,3 +28,7 @@ Hardware Source Location: https://github.com/Kinatric/d2_rl_lab (use the specifi
 New wholly Kinatric-owned source files should carry `SPDX-License-Identifier: GPL-3.0-or-later` and the actual copyright holder/year. New wholly Kinatric-owned hardware files should carry `SPDX-License-Identifier: CERN-OHL-W-2.0`, or a matching `<filename>.license` sidecar for binary formats. Preserve all original notices in mixed or imported files and identify the license of Kinatric modifications separately; do not replace another author's SPDX identifier or copyright holder. Include these license texts and applicable notices in source and binary packages.
 
 Kinatric-owned trained policies/checkpoints are explicitly GPL-3.0-or-later under this policy. Include an artifact-level license notice, ownership/provenance record and the required corresponding source in each release. Establish the preferred form for modifying the policy, including the editable checkpoint and applicable training/export configuration and scripts; an ONNX export alone must not be assumed sufficient. Licensing training code alone does not automatically license its outputs. Firmware from component vendors retains its vendor terms.
+
+## Published hardware scope
+
+Kinatric publishes its mechanical design exports and robot models under CERN-OHL-W-2.0 where identified in this repository. PCB designs and their source files are proprietary, are not published here, and are excluded from this grant. Native CAD part and assembly files are retained privately; the published mechanical files are STEP exports and other published design files identified by the repository coverage. This scope statement does not amend the license or waive its Complete Source obligations. Software and firmware remain covered separately as described here.
